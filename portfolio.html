@@ -1,69 +1,67 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   
+        <script src="main.js"></script>
+    </head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--Roll back one version on Bootstrap for better documentation-->
+    <body>
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!--End of stylization-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!--End of stylization-->
+    
+        <!--Container holding entire page-->
+        <div class="container">
 
-    <!--NavBar-->
-    <!--Div class containter aligns NavBar with main content of page-->
-    <div class="containter col-md-8">
-        <nav class="navbar navbar-light bg-light">
-            <!--Name text-->
-            <span class="navbar-brand mb-0 h1">Shelby Lefebvre</span>
-            <!--Links to About Me/Portfolio/Text at far end of NavBar-->
-            <ul class="navbar nav justify-content-end">
-                <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-    <!--End of NavBar-->
+            <!--NavBar-->
+            <nav class="navbar navbar-default col-md-8">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!--Name-->
+                        <a class="navbar-brand" href="#">Shelby Lefebvre</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">About Me</a></li>
+                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
 
-<!--Try dividing nav bar up into two containters - one for your name (3-4 columns), the rest for nav bar-->
+        <!--Try dividing nav bar up into two containters - one for your name (3-4 columns), the rest for nav bar-->
 
-    <!--Portfolio div-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Portfolio</h2>
-                    <!--Portfolio thumbnails will go here-->
+            <!--Portfolio div-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Portfolio</h2>
+                            <!--Portfolio thumbnails will go here-->
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <!--End of Portfolio div-->
+            <!--End of Portfolio div-->
 
-    <!--Sticky Footer-->
-    <footer class="footer">
-        <div class="containter">
-            <!--Span assigns color-->
-            <span class="text-muted">
-                <!--P tag aligns text to center-->
-                <p class="text-center">&copy; Copyright 2018 Shelby Lefebvre</p>
-            </span>
+            <!--Sticky Footer-->
+            <footer class="footer">
+                <div class="containter-fluid">
+                    <!--Span assigns color-->
+                    <span class="text-muted">
+                        <!--P tag aligns text to center-->
+                        <p class="text-center">&copy; Copyright 2018 Shelby Lefebvre</p>
+                    </span>
+                </div>
+            </footer>
+            <!--End of Sticky Footer-->
+
         </div>
-    </footer>
-    <!--End of Sticky Footer-->
+        <!--End of container holding entire page-->
   </body>
 </html>
