@@ -12,46 +12,45 @@
 
     <body>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <!--End of stylization-->
+    <!--Contains the entire page-->
+    <div class="container-fluid">
 
-        <!--Contains the entire page-->
+        <!--NavBar-->
         <div class="container">
-
-            <!--NavBar-->
-            <nav class="navbar navbar-default col-md-8">
-                <div class="container">
-                    <div class="navbar-header">
-                        <!--Name-->
-                        <header>Shelby Lefebvre</header>
+            <div class="row">
+                <nav class="navbar navbar-default col-md-8">
+                    <div class="container">
+                        <div class="row">
+                            <div class="nav col-md-8">
+                                    <!--Name, set in CSS to only take up 1/3 of navbar-->
+                                    <h2>Shelby Lefebvre</h2>
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="index.html">About Me</a></li>
+                                    <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                                    <li class="active"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">About Me</a></li>
-                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <!--End of NavBar-->
+                </nav>
+            </div>
+        </div>
+        <!--End of NavBar-->
 
             <!--Sidebar-->
-            <div class="card bg-light col-md-4" style="max-width: 18rem;">
-            <!--Find out how to customize width to 4 columns, and place in same row as NavBar-->
-                <div class="card-header">Connect With Me</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Light card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+            <div class="panel panel-default col-md-4">
+                <div class="panel-heading">
+                    Connect With Me
+                </div>
+                <div class="panel-body">
+                    Panel Content
                 </div>
             </div>
 
             <!--About Me div-->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-lg-8">
                         <h2>About Me</h2>
 
                         <p>My name is Shelby Lefebvre (pronounced "Le-FAVE"). I live in Newmarket, NH. I graduated from the University of New Hampshire in 2014 with a B.A. in Journalism with a concentration in Economics. I currently work in Exeter, NH. I have a well-rounded, homegrown sense of sarcastic New England humor, but I mean well!</p>
@@ -77,5 +76,11 @@
             <!--End of Sticky Footer-->
         </div>
         <!--ends container holding the entire page-->
+
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.min.js"></script>
+                <!--End of stylization-->
     </body>
 </html>
