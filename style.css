@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("https://github.com/stlefebvre/Basic-Portfolio/blob/master/assets/images/Background/spiration%20light/spiration-light.png?raw=true");
+}
+
+#NavBar {
+    background-color: #ffffff;
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 1px; 
+}
+
+#NameNavBar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    display: block;
+    width: 100%;
+    max-width: 21%;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+#NavBarLinks {
+    background-color: #ffffff;
+}
+
+#IndexLink, #PortfolioLink {
+    background-color: #ffffff;
+    border-right: #dddddd;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+#ContactLink {
+    background-color: #ffffff;
+}
+
+#SideBarHeading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: bold;
+}
+
+#MainContentDiv {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: #ffffff;
+    line-height: 30px;
+}
+
+#MainContentHeading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-bottom: 30px;
+    border-bottom: solid;
+    border-color: #dddddd;
+    border-width: 3px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    color: #777777;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
+    text-align: center;
+    font-size: 12px;
+}
