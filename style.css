@@ -13,14 +13,12 @@ body {
 
 #NameNavBar {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: #ffffff;
     background-color: #4aaaa5;
     display: block;
     width: 100%;
     max-width: 21%;
-    padding-right: 35px;
-    padding-left: 35px;
 }
 
 #NavBarLinks {
@@ -40,7 +38,7 @@ body {
 
 #SideBarHeading {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: #ffffff;
     background-color: #4aaaa5;
     font-weight: bold;

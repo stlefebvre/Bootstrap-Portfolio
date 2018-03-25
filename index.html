@@ -16,7 +16,7 @@
         <!--Contains the entire page-->
         <div class="container-fluid">
 
-            <!--NavBar and Sidebar Containter-->
+            <!--NavBar Containter-->
             <div class="container">
                 <div class="row">
 
@@ -26,8 +26,8 @@
                             <div class="row">
                                 <div class="nav" id="NavBar">
                                         <!--Name, set in CSS to only take up 1/3 of navbar-->
-                                        <h1 id="NameNavBar">Shelby Lefebvre</h1>
-                                    <ul class="nav navbar-nav" id="NavBarLinks">
+                                        <a class="navbar-brand" href="#" id="NameNavBar">Shelby Lefebvre</a>
+                                    <ul class="nav navbar-nav pull-right" id="NavBarLinks">
                                         <li class="active">
                                             <a href="index.html" id="IndexLink">About Me</a>
                                         </li>
@@ -43,13 +43,21 @@
                         </div>
                     </nav>
                     <!--End of NavBar-->
+                </div>
+            </div>
+            <!--End of NavBar Container-->
+
+            
+            <!--Container for Sidebar and About Me Container-->
+            <div class= "container">
+                <div class="row">
 
                     <!--Sidebar-->
-                    <div class="containter col-xs-4 col-s-4 col-md-4 col-lg-4">
+                    <div class="container col-xs-4 col-s-4 col-md-4 col-lg-4 col-md-push-8 col-lg-push-8">
                         <div class="row">
                             <div class="panel panel-default" id="SideBar">
                                 <div class="panel-heading" id="SideBarHeading">
-                                    <h1>Connect With Me</h1>
+                                    <h2>Connect With Me</h2>
                                 </div>
                                 <div class="panel-body" id="SideBarBody">
                                     Panel Content
@@ -59,37 +67,37 @@
                     </div>
                     <!--End of Sidebar-->
 
-                </div>
-            </div>
-            <!--End of NavBar and Sidebar containter--> 
+                    <!--About Me div-->
+                    <div class="container" id="MainContentDiv">
+                        <div class="row">
+                            <div class="container col-xs-12 col-s-12 col-md-8 col-lg-8 col-md-pull-4 col-lg-pull-4">
+                                <!--About Me header-->
+                                <h2 id="MainContentHeading">About Me</h2>
 
-            <!--About Me div-->
-            <div class="container" id="MainContentDiv">
-                <div class="row">
-                    <div class="container col-xs-12 col-s-12 col-md-8 col-lg-8">
-                        <!--About Me header-->
-                        <h2 id="MainContentHeading">About Me</h2>
+                                    <!--Profile Picture div, not a separate row because it needs to be in the same row as the p tags-->
+                                    <div class="col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="https://github.com/stlefebvre/Basic-Portfolio/blob/master/assets/images/ProfilePicture.jpg?raw=true" alt="ProfilePicture" style="width:100%">
+                                        </div>
+                                    </div>
+                                    <!--End of Profile Picture div-->
 
-                            <!--Profile Picture div, not a separate row because it needs to be in the same row as the p tags-->
-                            <div class="col-md-4">
-                                <div class="thumbnail">
-                                    <img src="https://github.com/stlefebvre/Basic-Portfolio/blob/master/assets/images/ProfilePicture.jpg?raw=true" alt="ProfilePicture" style="width:100%">
-                                </div>
+                                <!--About Me div main text-->
+                                <p>My name is Shelby Lefebvre (pronounced "Le-FAVE"). I live in Newmarket, NH. I graduated from the University of New Hampshire in 2014 with a B.A. in Journalism with a concentration in Economics. I currently work in Exeter, NH. I have a well-rounded, homegrown sense of sarcastic New England humor, but I mean well!</p>
+                            
+                                <p>In my spare time, I'm an avid reader, food eater, amateur singer/rapper, and bar trivia answer-er (the jury's still out as to whether I'm right or not). I dabble in photography with my Nikon from time to time, and am fully committed to being a strong role model for my roommate's cat.</p>
+
+                                <p>My ultimate goal is to establish a career in web development to hone skills I've invested my time in, and to be competetive in the ever-changing technology industry. I am ready and excited to challenge myself!</p>
+                                <!--End of About Me div text-->
+
                             </div>
-                            <!--End of Profile Picture div-->
-
-                        <!--About Me div main text-->
-                        <p>My name is Shelby Lefebvre (pronounced "Le-FAVE"). I live in Newmarket, NH. I graduated from the University of New Hampshire in 2014 with a B.A. in Journalism with a concentration in Economics. I currently work in Exeter, NH. I have a well-rounded, homegrown sense of sarcastic New England humor, but I mean well!</p>
-                    
-                        <p>In my spare time, I'm an avid reader, food eater, amateur singer/rapper, and bar trivia answer-er (the jury's still out as to whether I'm right or not). I dabble in photography with my Nikon from time to time, and am fully committed to being a strong role model for my roommate's cat.</p>
-
-                        <p>My ultimate goal is to establish a career in web development to hone skills I've invested my time in, and to be competetive in the ever-changing technology industry. I am ready and excited to challenge myself!</p>
-                        <!--End of About Me div text-->
-
+                        </div>
                     </div>
+                    <!--End of About Me div-->
+                    
                 </div>
             </div>
-            <!--End of About Me div-->
+            <!--End of container holding About Me and sidebar-->
 
             <!--Sticky Footer-->
             <div class="container">
